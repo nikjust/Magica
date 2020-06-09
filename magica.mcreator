@@ -618,6 +618,77 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hammer_of_fate"
+    },
+    {
+      "name": "RangedBoof",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ranged_boof",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicHammer",
+      "type": "gun",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_hammer"
+    },
+    {
+      "name": "MagicHammerBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_hammer_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -671,6 +742,7 @@
       "fluid.dash": "Dash",
       "block.magica.dirty_magic_quartz_ore": "Dirty Magic Quartz Ore",
       "item.magica.cleanser_gun": "Cleanser Gun",
+      "item.magica.magic_hammer": "Magic Hammer",
       "advancements.magic_furnace.descr": "Get a magic furnace",
       "advancements.first_generator.title": "First Generator ?",
       "advancements.magic_furnace.title": "Magic Furnace",
