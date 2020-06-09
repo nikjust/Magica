@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "magica:magica_furnace"
+    },
+    "title": {
+      "translate": "advancements.magic_furnace.title"
+    },
+    "description": {
+      "translate": "advancements.magic_furnace.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magic_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magica:magica_furnace",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "magica:first_generator"
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "magica:magic_quartz_generator"
+    },
+    "title": {
+      "translate": "advancements.first_generator.title"
+    },
+    "description": {
+      "translate": "advancements.first_generator.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_generator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magica:magic_quartz_generator",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "magica:first_steps"
+}

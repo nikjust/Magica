@@ -1,0 +1,95 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "AR2/Cleanser"
+	},
+	"elements": [
+		{
+			"from": [5, 13.5, -8],
+			"to": [7, 15.5, 0],
+			"rotation": {"angle": 0, "axis": "x", "origin": [6, 13.25, -2.75], "rescale": true},
+			"faces": {
+				"north": {"uv": [14, 10.25, 14.5, 10.75], "texture": "#0"},
+				"east": {"uv": [12, 10.25, 14, 10.75], "texture": "#0"},
+				"south": {"uv": [16.5, 10.25, 17, 10.75], "texture": "#0"},
+				"west": {"uv": [14.5, 10.25, 16.5, 10.75], "texture": "#0"},
+				"up": {"uv": [14.5, 10.25, 14, 8.25], "texture": "#0"},
+				"down": {"uv": [15, 8.25, 14.5, 10.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 10.5, -2],
+			"to": [6.5, 13.5, -1],
+			"rotation": {"angle": 0, "axis": "x", "origin": [6, 13.25, -2.75], "rescale": true},
+			"faces": {
+				"north": {"uv": [6.25, 0.25, 6.5, 1], "texture": "#0"},
+				"east": {"uv": [6, 0.25, 6.25, 1], "texture": "#0"},
+				"south": {"uv": [6.75, 0.25, 7, 1], "texture": "#0"},
+				"west": {"uv": [6.5, 0.25, 6.75, 1], "texture": "#0"},
+				"up": {"uv": [6.5, 0.25, 6.25, 0], "texture": "#0"},
+				"down": {"uv": [6.75, 0, 6.5, 0.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [1.75, -4.5, 11]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-2, -4.5, 11]
+		},
+		"firstperson_righthand": {
+			"translation": [1.75, -4.5, 11]
+		},
+		"firstperson_lefthand": {
+			"translation": [1.75, -4.5, 11]
+		},
+		"ground": {
+			"translation": [1.75, -4.5, 11]
+		},
+		"gui": {
+			"rotation": [0, 81, 0],
+			"translation": [13, -4.5, 1.5]
+		},
+		"head": {
+			"translation": [1.75, -4.5, 11]
+		},
+		"fixed": {
+			"rotation": [0, 86, 0],
+			"translation": [10, -4.25, -1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Head",
+			"origin": [0, 24, 0],
+			"children": []
+		},
+		{
+			"name": "Body",
+			"origin": [0, 24, 0],
+			"children": []
+		},
+		{
+			"name": "RightArm",
+			"origin": [5, 22, 0],
+			"children": [0, 1]
+		},
+		{
+			"name": "LeftArm",
+			"origin": [-5, 22, 0],
+			"children": []
+		},
+		{
+			"name": "RightLeg",
+			"origin": [1.9, 12, 0],
+			"children": []
+		},
+		{
+			"name": "LeftLeg",
+			"origin": [-1.9, 12, 0],
+			"children": []
+		}
+	]
+}

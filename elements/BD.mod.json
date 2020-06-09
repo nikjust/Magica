@@ -1,0 +1,56 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Magica: <VAR:GlobalMagic>",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "Magica: <VAR:GlobalMagic>",
+          "x": 336,
+          "y": 85
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 406,
+          "y": 118
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 408,
+          "y": 204
+        }
+      }
+    ]
+  }
+}

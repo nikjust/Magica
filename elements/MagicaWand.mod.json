@@ -1,0 +1,39 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "mw",
+    "customModelName": "Normal",
+    "name": "Magica Wand",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 200,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.0,
+    "onRangedItemUsed": {
+      "name": "MagicaWandBulletHitsLivingEntity"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.CHORUS_PLANT"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

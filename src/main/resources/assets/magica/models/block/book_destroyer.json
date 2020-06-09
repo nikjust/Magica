@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magica:blocks/mgfurntop",
+    "up": "magica:blocks/ev",
+    "north": "magica:blocks/j21",
+    "east": "magica:blocks/ev",
+    "south": "magica:blocks/ev",
+    "west": "magica:blocks/ev",
+    "particle": "magica:blocks/mgfurntop"
+  }
+}

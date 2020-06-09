@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magica:block/book_destroyer"
+    },
+    "facing=east": {
+      "model": "magica:block/book_destroyer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magica:block/book_destroyer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magica:block/book_destroyer",
+      "y": 270
+    }
+  }
+}

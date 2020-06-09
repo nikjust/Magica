@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magica:blocks/mqoo",
+    "particle": "magica:blocks/mqoo"
+  }
+}

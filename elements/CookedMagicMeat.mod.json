@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "syraia_svinina",
+    "customModelName": "Normal",
+    "name": "Cooked Magic Meat",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "saturation": 2.0,
+    "eatingSpeed": 32,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "magica:magica_tablet"
+    },
+    "title": {
+      "translate": "advancements.i_can_view_the_magic.title"
+    },
+    "description": {
+      "translate": "advancements.i_can_view_the_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_can_view_the_magic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "magica:magica_tablet",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "magica:first_generator"
+}

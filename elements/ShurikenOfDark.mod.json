@@ -1,0 +1,39 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "shurikenofdark",
+    "customModelName": "Normal",
+    "name": "Shuriken Of Dark",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": "CUSTOM:ShurikenOfDark"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ShurikenOfDark"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "DarkSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

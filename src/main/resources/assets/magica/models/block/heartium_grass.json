@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magica:blocks/rainbowiumdown",
+    "up": "magica:blocks/ribowiumgrasstop",
+    "north": "magica:blocks/rainbowiumgrassside",
+    "east": "magica:blocks/rainbowiumgrassside",
+    "south": "magica:blocks/rainbowiumgrassside",
+    "west": "magica:blocks/rainbowiumgrassside",
+    "particle": "magica:blocks/rainbowiumdown"
+  }
+}

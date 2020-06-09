@@ -1,0 +1,705 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MGC",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "mgc"
+    },
+    {
+      "name": "MagicQuartzGenerator",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_quartz_generator"
+    },
+    {
+      "name": "MagicQuartz",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_quartz"
+    },
+    {
+      "name": "MagicQuartzGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_quartz_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MOverlay",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "m_overlay"
+    },
+    {
+      "name": "MagicaTabletItemInHandTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_tablet_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicaTabletOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_tablet_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicaTablet",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_tablet"
+    },
+    {
+      "name": "MagicaTabletRightClickedInAir",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_tablet_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicMeat",
+      "type": "food",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_meat"
+    },
+    {
+      "name": "CookedMagicMeat",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_magic_meat"
+    },
+    {
+      "name": "Mgy",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mgy"
+    },
+    {
+      "name": "MagicaFurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_furnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicaFurnace",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_furnace"
+    },
+    {
+      "name": "MagicaWandBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_wand_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicaWand",
+      "type": "gun",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_wand"
+    },
+    {
+      "name": "MagicQuartzBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_quartz_block"
+    },
+    {
+      "name": "BD",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bd"
+    },
+    {
+      "name": "BookDestroyerUpdateTick",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_destroyer_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookDestroyer",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "book_destroyer"
+    },
+    {
+      "name": "FirstSteps",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_steps"
+    },
+    {
+      "name": "FirstGenerator",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_generator"
+    },
+    {
+      "name": "MagicFurnace",
+      "type": "achievement",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_furnace"
+    },
+    {
+      "name": "ICanViewTheMagic",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "i_can_view_the_magic"
+    },
+    {
+      "name": "MagicaWandUnchargedItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_wand_uncharged_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicaWandUncharged",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magica_wand_uncharged"
+    },
+    {
+      "name": "DirtyMagicQuartzOre",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirty_magic_quartz_ore"
+    },
+    {
+      "name": "MagicQuartzOre",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_quartz_ore"
+    },
+    {
+      "name": "DirtyMagicQuartzOreOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirty_magic_quartz_ore_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dash",
+      "type": "fluid",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dash"
+    },
+    {
+      "name": "HeartiumGrass",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heartium_grass"
+    },
+    {
+      "name": "Heartium",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heartium"
+    },
+    {
+      "name": "HeartiumPortalBlock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heartium_portal_block"
+    },
+    {
+      "name": "Hearti",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hearti"
+    },
+    {
+      "name": "GoodIngot",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "good_ingot"
+    },
+    {
+      "name": "GoodSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "good_sword"
+    },
+    {
+      "name": "SoulShard",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_shard"
+    },
+    {
+      "name": "GoodSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "good_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkSoulShard",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_soul_shard"
+    },
+    {
+      "name": "DarkIngot",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_ingot"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword"
+    },
+    {
+      "name": "DarkSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShurikenOfLight",
+      "type": "gun",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuriken_of_light"
+    },
+    {
+      "name": "ShurikenOfDark",
+      "type": "gun",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuriken_of_dark"
+    },
+    {
+      "name": "MysteryCreeper",
+      "type": "mob",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystery_creeper"
+    },
+    {
+      "name": "CleanserGunRangedItemUsed",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cleanser_gun_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CleanserGun",
+      "type": "gun",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cleanser_gun"
+    },
+    {
+      "name": "Cleanser",
+      "type": "mob",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cleanser"
+    },
+    {
+      "name": "Boof",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boof",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HammerOfFate",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_of_fate"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "GlobalMagic",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Overlay",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Gradus",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.magica.dark_sword": "Dark Sword",
+      "entity.magica.cleanser": "Cleanser",
+      "advancements.i_can_view_the_magic.descr": "Get a Magica Tablet",
+      "advancements.first_steps.descr": "Have a Magic Quartz",
+      "item.magica.magica_wand_uncharged": "Magica Wand Uncharged",
+      "block.magica.heartium_portal_block": "Heartium Portal Block",
+      "item.magica.cooked_magic_meat": "Cooked Magic Meat",
+      "item.magica.magica_wand": "Magica Wand",
+      "item.magica.magic_quartz": "Magic Quartz",
+      "item.magica.hammer_of_fate": "Hammer Of Fate",
+      "item.magica.mystery_creeper": "Mystery Creeper Spawn Egg",
+      "item.magica.magic_meat": "Magic Meat",
+      "item.magica.good_ingot": "Good Ingot",
+      "item.magica.dark_soul_shard": "Dark Soul Shard",
+      "item.magica.soul_shard": "Light Soul Shard",
+      "item.magica.cleanser": "Cleanser Spawn Egg",
+      "item.magica.good_sword": "Good Sword",
+      "item.magica.shuriken_of_dark": "Shuriken Of Dark",
+      "item.magica.dark_ingot": "Dark Ingot",
+      "advancements.first_steps.title": "First Steps",
+      "block.magica.heartium_grass": "Heartium Grass",
+      "entity.magica.mystery_creeper": "Mystery Creeper",
+      "block.magica.magic_quartz_block": "Magic Quartz Block",
+      "advancements.first_generator.descr": "Have Magic Quartz Generator",
+      "item.magica.dash_bucket": "Dash Bucket",
+      "fluid.dash": "Dash",
+      "block.magica.dirty_magic_quartz_ore": "Dirty Magic Quartz Ore",
+      "item.magica.cleanser_gun": "Cleanser Gun",
+      "advancements.magic_furnace.descr": "Get a magic furnace",
+      "advancements.first_generator.title": "First Generator ?",
+      "advancements.magic_furnace.title": "Magic Furnace",
+      "advancements.i_can_view_the_magic.title": "I Can View The Magic",
+      "block.magica.magic_quartz_generator": "Magic Quartz Generator",
+      "block.magica.magic_quartz_ore": "Magic Quartz Ore",
+      "block.magica.book_destroyer": "Enchant Destroyer",
+      "block.magica.heartium": "Heartium",
+      "item.magica.magica_tablet": "Magica Tablet",
+      "block.magica.magica_furnace": "Magica Furnace",
+      "item.magica.shuriken_of_light": "Shuriken Of Light"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "magica",
+    "modName": "Magica",
+    "version": "1.0.0",
+    "author": "Ник, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.magica",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

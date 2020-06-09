@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magica:blocks/mgfurntop",
+    "particle": "magica:blocks/mgfurntop"
+  }
+}
