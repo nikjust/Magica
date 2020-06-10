@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jeff0",
+        "1": "jeff2",
+        "2": "jeff3"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "magica:custom/jeffstatue",
+  "textures": {
+    "all": "magica:blocks/rainbowiumdown",
+    "particle": "magica:blocks/rainbowiumdown",
+    "0": "magica:blocks/jeff0",
+    "1": "magica:blocks/jeff2",
+    "2": "magica:blocks/jeff3"
+  }
+}
