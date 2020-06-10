@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "magica:gluko_mushroom"
+    },
+    "title": {
+      "translate": "advancements.bad_trip.title"
+    },
+    "description": {
+      "translate": "advancements.bad_trip.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bad_trip": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "magica:gluko_mushroom"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "magica:first_generator"
+}

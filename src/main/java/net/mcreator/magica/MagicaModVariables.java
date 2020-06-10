@@ -56,7 +56,8 @@ public class MagicaModVariables {
 		public static final String DATA_NAME = "magica_mapvars";
 		public double GlobalMagic = 0;
 		public boolean Overlay = false;
-		public double Gradus = 0;
+		public double Gradus = 0.0;
+		public double jumbo = 5.0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -70,6 +71,7 @@ public class MagicaModVariables {
 			GlobalMagic = nbt.getDouble("GlobalMagic");
 			Overlay = nbt.getBoolean("Overlay");
 			Gradus = nbt.getDouble("Gradus");
+			jumbo = nbt.getDouble("jumbo");
 		}
 
 		@Override
@@ -77,6 +79,7 @@ public class MagicaModVariables {
 			nbt.putDouble("GlobalMagic", GlobalMagic);
 			nbt.putBoolean("Overlay", Overlay);
 			nbt.putDouble("Gradus", Gradus);
+			nbt.putDouble("jumbo", jumbo);
 			return nbt;
 		}
 
